@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Practicing HTML
+        </title>
+        <style>
+            p, a{
+                font-size:25px;
+            }
+            a:link{
+                color: chocolate;
+                background-color: transparent;
+                text-decoration: none;
+            }
+            a:visited{
+                color: maroon;
+            }
+            a:hover{
+                color: purple;
+                font-size: 30px;
+            }
+            a:active{
+                color:red;
+            }
+            h3{
+                text-transform: capitalize;
+            }
+        </style>
+    </head>
+    <body style="background-color:turquoise;">
+
+        <center>
+            <h1 style="color: orangered">Nameste World</h1>
+            <p>This is ayush presenting my first website</p>
+            <a href="#al">Jump to about links</a>
+            <a href = "https://www.youtube.com/">click here to open youtube</a>
+            <hr>
+            <p>the curve image came in below image by seting border-radius by 3rem</p>
+            <img title="Don't disturbe the fox he is sleeping" src = "sleeping fox.jpg" alt = "check your conectivity" style="width: 500px; border-radius: 3rem;" >
+            <p title="The value of the title attribute will be displayed as a tooltip when you mouse over the element">What is tooltip...?</p>
+            <pre>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Similique veniam quae ex, <mark>ab minima deserunt quisquam</mark>,
+            labore cupiditate cum ad sed facilis a! Ad at error dolorum porro corporis sit!
+            </pre>
+
+            <p><b>bold,</b> <strong>strong,</strong> <i>italic,</i> <em>emphasized text,</em> <mark>Marked text</mark> </p>
+            <hr>
+            <p>(log<sub>e</sub> a<sup>2</sup>) this is particularly done by subscript and superscript respectively</p>
+
+            <hr>
+            <blockquote cite="https://www.youtube.com/">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nisi labore pariatur officiis molestias debitis iste,
+            earum ab error numquam. Nam ducimus magni sunt ipsa.
+            Iusto ex et aspernatur quos nulla praesentium esse hic cumque libero illo nam dolore,
+            earum, ut dicta laudantium </blockquote>
+        </center>
+        <h4>the bellow line was written through address tag</h4>
+
+        <address>
+            Writeen by ayush tripathi <br>
+            dm me at <br>
+            https://www.instagram.com/shootsbyayush <br>
+            India <br>
+        </address>
+
+        <p>
+            <abbr title="Hyper Text Markup Language">HTML</abbr>
+            <cite>Pchycology of Money</cite> by morgan housel in 2020
+        </p>
+
+        <bdo dir="rtl">this text is written throkugh bdo tag</bdo>
+        
+        <center>
+            <h1 id="al">ABOUT LINKS</h1>
+            <p>
+                This <a href="https://www.youtube.com/">youtube link</a> will open youtube in the current tab 
+                for opening youtube in new tab click on this <a href="https://www.youtube.com/" target="_blank">youtube link</a>.
+            </p>
+
+            <!--
+            The target attribute can have one of the following values:
+
+            _self - Default. Opens the document in the same window/tab as it was clicked
+            _blank - Opens the document in a new window or tab
+            _parent - Opens the document in the parent frame
+            _top - Opens the document in the full body of the window
+            -->
+
+            <h3>Using Image as link</h3>
+            <p>
+                Click on below image to open youtube.
+            </p>
+            <br>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="sleeping fox.jpg" alt="link not found" style="width: 150px; border-radius: 1rem;">
+            </a>
+
+            <h3>link to email</h3>
+            <a href="mailto:ayushtripathi.india@gmail.com">send email</a>
+            <br>
+            <br>
+            <button onclick="document.location='Complete Web Development Roadmap.pdf'">Open pdf</button>
+            <br>       
+            <a href="web.html">open new page</a>
+
+            <h3>link color</h3>
+
+            <a href="https://www.youtube.com/" target="_blank">a:link</a>&nbsp;
+            <a href="https://www.youtube.com/" target="_blank">a:visited</a>&nbsp;
+            <a href="https://www.youtube.com/" target="_blank">a:hoveer</a>&nbsp;
+            <a href="https://www.youtube.com/" target="_blank">a:active</a>&nbsp;
+
+            <h3>image map</h3>
+
+            <img src="sleeping fox.jpg" alt="sleeping fox" usemap="#foximage" style="width: 300px;">
+
+            <map name="foximage">
+                <area shape="" coords="" href="" alt="">
+                <area shape="rect" coords="90,95,220,170" href="https://www.britannica.com/animal/fox-mammal" target="_blank" alt="fox">
+            </map>
+            
+            <ol><li>ayush</li><li>ayushi</li></ol>
+
+        </center>
+    </body>
+</html>
